@@ -1,0 +1,11 @@
+{
+  "name": "@civis/ops",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@civis/kernel": "workspace:*",
+    "@civis/http-contracts": "workspace:*",
+    "zod": "^3.23.8"
+  }
+}

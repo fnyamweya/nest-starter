@@ -1,0 +1,13 @@
+{
+  "name": "@civis/example",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@civis/kernel": "workspace:*",
+    "@civis/http-contracts": "workspace:*",
+    "@civis/event-sourcing": "workspace:*",
+    "zod": "^3.23.8",
+    "pg": "^8.13.1"
+  }
+}

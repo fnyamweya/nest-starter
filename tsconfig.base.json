@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "exactOptionalPropertyTypes": true,
+    "noUncheckedIndexedAccess": true,
+    "useUnknownInCatchVariables": true,
+    "noImplicitOverride": true,
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": false,
+    "declaration": true,
+    "sourceMap": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": false,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@civis/kernel": ["packages/kernel/src/index.ts"],
+      "@civis/kernel/*": ["packages/kernel/src/*"],
+      "@civis/http-contracts": ["packages/http-contracts/src/index.ts"],
+      "@civis/http-contracts/*": ["packages/http-contracts/src/*"],
+      "@civis/event-sourcing": ["packages/event-sourcing/src/index.ts"],
+      "@civis/event-sourcing/*": ["packages/event-sourcing/src/*"],
+      "@civis/platform": ["packages/platform/src/index.ts"],
+      "@civis/platform/*": ["packages/platform/src/*"],
+      "@civis/testing": ["packages/testing/src/index.ts"],
+      "@civis/testing/*": ["packages/testing/src/*"],
+      "jsonwebtoken": ["types/jsonwebtoken.d.ts"],
+      "supertest": ["types/supertest.d.ts"],
+      "prom-client": ["types/prom-client.d.ts"]
+    }
+  }
+}

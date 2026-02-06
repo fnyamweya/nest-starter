@@ -1,0 +1,13 @@
+{
+  "name": "@civis/kernel",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./types": "./src/types/index.ts",
+    "./immutable": "./src/immutable/index.ts",
+    "./validation": "./src/validation/index.ts",
+    "./validation/empty": "./src/validation/empty.ts"
+  }
+}

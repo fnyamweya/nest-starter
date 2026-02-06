@@ -1,0 +1,13 @@
+{
+  "name": "@civis/platform",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./config": "./src/config/index.ts",
+    "./logger": "./src/logger/index.ts",
+    "./ids": "./src/ids/index.ts",
+    "./hashing": "./src/hashing/index.ts"
+  }
+}

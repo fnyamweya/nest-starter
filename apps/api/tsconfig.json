@@ -1,0 +1,17 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "composite": true,
+    "rootDir": ".",
+    "outDir": "dist"
+  },
+  "references": [
+    { "path": "../../packages/kernel" },
+    { "path": "../../packages/http-contracts" },
+    { "path": "../../packages/platform" },
+    { "path": "../../packages/event-sourcing" },
+    { "path": "../../modules/example" },
+    { "path": "../../modules/ops" }
+  ],
+  "include": ["src", "test"]
+}
